@@ -36,6 +36,8 @@ let(:test_warmup) { Warmup.new }
       test_warmup.calls_some_methods(string)
     end
 
+  
+
   end
   
 
