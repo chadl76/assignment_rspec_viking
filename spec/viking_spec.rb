@@ -61,7 +61,8 @@ describe Viking do
 
   describe '#attack' do
 
-  	it 'should cause another viking health to drop' do
+  	it 'should call damage_with_fists when attacking without weapon' do
+  		expect(viking.attack).to receive(:damage_with_fists)
   	end
   end
 
